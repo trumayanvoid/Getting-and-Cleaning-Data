@@ -2,7 +2,7 @@
 ## https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ## with a full description of data located on
 ## https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-## then outputs the tidy csv version of that data named tidy_data.csv 
+## then outputs the tidy txt version of that data named tidy_data.txt
 
 # Load dplyr and tidyr packages
 
