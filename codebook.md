@@ -1,5 +1,5 @@
-# Variable Names
-### activity_type (chr)   WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, STANDING, SITTING, LAYING
+# Variable Names (class)  (levels|values)
+### activity_type (chr)   (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, STANDING, SITTING, LAYING)
 ### volunteer_id (int)   (1:30)
 ### tBodyAcc.mean...X (num)
 ### tBodyAcc.mean...Y (num)
