@@ -1,89 +1,89 @@
-                    #  Variable Names                         Class
-                        activity_type                          chr
-                        volunteer_id                           int
-                    tBodyAcc.mean...X                          num
-                    tBodyAcc.mean...Y                          num
-                    tBodyAcc.mean...Z                          num
-                 tGravityAcc.mean...X                          num
-                tGravityAcc.mean...Y                           num
-                 tGravityAcc.mean...Z                          num
-                 tBodyAccJerk.mean...X                         num
-                tBodyAccJerk.mean...Y                          num
-                tBodyAccJerk.mean...Z                          num
-                   tBodyGyro.mean...X                          num
-                   tBodyGyro.mean...Y                          num
-                   tBodyGyro.mean...Z                          num
-               tBodyGyroJerk.mean...X
-               tBodyGyroJerk.mean...Y
-               tBodyGyroJerk.mean...Z
-                   tBodyAccMag.mean..
-                tGravityAccMag.mean..
-               tBodyAccJerkMag.mean..
-                  tBodyGyroMag.mean..
-              tBodyGyroJerkMag.mean..
-                    fBodyAcc.mean...X
-                    fBodyAcc.mean...Y
-                    fBodyAcc.mean...Z
-                fBodyAcc.meanFreq...X
-                fBodyAcc.meanFreq...Y
-                fBodyAcc.meanFreq...Z
-                fBodyAccJerk.mean...X
-                fBodyAccJerk.mean...Y
-                fBodyAccJerk.mean...Z
-            fBodyAccJerk.meanFreq...X
-            fBodyAccJerk.meanFreq...Y
-            fBodyAccJerk.meanFreq...Z
-                   fBodyGyro.mean...X
-                   fBodyGyro.mean...Y
-                   fBodyGyro.mean...Z
-               fBodyGyro.meanFreq...X
-               fBodyGyro.meanFreq...Y
-               fBodyGyro.meanFreq...Z
-                   fBodyAccMag.mean..
-               fBodyAccMag.meanFreq..
-           fBodyBodyAccJerkMag.mean..
-       fBodyBodyAccJerkMag.meanFreq..
-              fBodyBodyGyroMag.mean..
-          fBodyBodyGyroMag.meanFreq..
-          fBodyBodyGyroJerkMag.mean..
-      fBodyBodyGyroJerkMag.meanFreq..
-          angle.tBodyAccMean.gravity.
- angle.tBodyAccJerkMean..gravityMean.
-     angle.tBodyGyroMean.gravityMean.
- angle.tBodyGyroJerkMean.gravityMean.
-                 angle.X.gravityMean.
-                 angle.Y.gravityMean.
-                 angle.Z.gravityMean.
-                     tBodyAcc.std...X
-                     tBodyAcc.std...Y
-                     tBodyAcc.std...Z
-                  tGravityAcc.std...X
-                  tGravityAcc.std...Y
-                  tGravityAcc.std...Z
-                 tBodyAccJerk.std...X
-                 tBodyAccJerk.std...Y
-                 tBodyAccJerk.std...Z
-                    tBodyGyro.std...X
-                    tBodyGyro.std...Y
-                    tBodyGyro.std...Z
-                tBodyGyroJerk.std...X
-                tBodyGyroJerk.std...Y
-                tBodyGyroJerk.std...Z
-                    tBodyAccMag.std..
-                 tGravityAccMag.std..
-                tBodyAccJerkMag.std..
-                   tBodyGyroMag.std..
-               tBodyGyroJerkMag.std..
-                     fBodyAcc.std...X
-                     fBodyAcc.std...Y
-                     fBodyAcc.std...Z
-                 fBodyAccJerk.std...X
-                 fBodyAccJerk.std...Y
-                 fBodyAccJerk.std...Z
-                    fBodyGyro.std...X
-                    fBodyGyro.std...Y
-                    fBodyGyro.std...Z
-                    fBodyAccMag.std..
-            fBodyBodyAccJerkMag.std..
-               fBodyBodyGyroMag.std..
-          fBodyBodyGyroJerkMag.std..
+# Variable Names			                                      Class			                               Values
+### activity_type			                                       chrWALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, STANDING, SITTING, LAYING
+## volunteer_id			                                         int                                      1:30		 	
+### tBodyAcc.mean...X			                                   num			
+### tBodyAcc.mean...Y			                                   num			
+### tBodyAcc.mean...Z			                                   num			
+### tGravityAcc.mean...X		                                 num				
+### tGravityAcc.mean...Y	                                   num					
+### tGravityAcc.mean...Z		                                 num				
+### tBodyAccJerk.mean...X		                                 num				
+### tBodyAccJerk.mean...Y		                                 num				
+### tBodyAccJerk.mean...Z		                                 num				
+### tBodyGyro.mean...X			                                 num			
+### tBodyGyro.mean...Y			                                 num			
+### tBodyGyro.mean...Z			                                 num			
+### tBodyGyroJerk.mean...X	                                 num					
+### tBodyGyroJerk.mean...Y	                                 num					
+### tBodyGyroJerk.mean...Z	                                 num					
+### tBodyAccMag.mean..			                                 num			
+### tGravityAccMag.mean..		                                 num				
+### tBodyAccJerkMag.mean..	                                 num					
+### tBodyGyroMag.mean..			                                 num			
+### tBodyGyroJerkMag.mean..	                                 num					
+### fBodyAcc.mean...X			                                   num			
+### fBodyAcc.mean...Y			                                   num			
+### fBodyAcc.mean...Z			                                   num			
+### fBodyAcc.meanFreq...X		                                 num				
+### fBodyAcc.meanFreq...Y		                                 num				
+### fBodyAcc.meanFreq...Z		                                 num				
+### fBodyAccJerk.mean...X		                                 num				
+### fBodyAccJerk.mean...Y		                                 num				
+### fBodyAccJerk.mean...Z		                                 num				
+### fBodyAccJerk.meanFreq...X			                           num			
+### fBodyAccJerk.meanFreq...Y			                           num			
+### fBodyAccJerk.meanFreq...Z			                           num			
+### fBodyGyro.mean...X			                                 num			
+### fBodyGyro.mean...Y			                                 num			
+### fBodyGyro.mean...Z			                                 num			
+### fBodyGyro.meanFreq...X			                             num			
+### fBodyGyro.meanFreq...Y			                             num			
+### fBodyGyro.meanFreq...Z			                             num			
+### fBodyAccMag.mean..			                                 num			
+### fBodyAccMag.meanFreq..			                             num			
+### fBodyBodyAccJerkMag.mean..			                         num			
+### fBodyBodyAccJerkMag.meanFreq..			                     num			
+### fBodyBodyGyroMag.mean..			                             num			
+### fBodyBodyGyroMag.meanFreq..			                         num			
+### fBodyBodyGyroJerkMag.mean..			                         num			
+### fBodyBodyGyroJerkMag.meanFreq..			                     num			
+### angle.tBodyAccMean.gravity.			                         num			
+### angle.tBodyAccJerkMean..gravityMean.			               num			
+### angle.tBodyGyroMean.gravityMean.			                   num			
+### angle.tBodyGyroJerkMean.gravityMean.			               num			
+### angle.X.gravityMean.			                               num			
+### angle.Y.gravityMean.			                               num			
+### angle.Z.gravityMean.			                               num			
+### tBodyAcc.std...X			                                   num			
+### tBodyAcc.std...Y			                                   num			
+### tBodyAcc.std...Z			                                   num			
+### tGravityAcc.std...X			                                 num			
+### tGravityAcc.std...Y			                                 num			
+### tGravityAcc.std...Z			                                 num			
+### tBodyAccJerk.std...X			                               num			
+### tBodyAccJerk.std...Y			                               num			
+### tBodyAccJerk.std...Z			                               num			
+### tBodyGyro.std...X			                                   num			
+### tBodyGyro.std...Y			                                   num			
+### tBodyGyro.std...Z			                                   num			
+### tBodyGyroJerk.std...X			                               num			
+### tBodyGyroJerk.std...Y			                               num			
+### tBodyGyroJerk.std...Z			                               num			
+### tBodyAccMag.std..			                                   num			
+### tGravityAccMag.std..			                               num			
+### tBodyAccJerkMag.std..			                               num			
+### tBodyGyroMag.std..			                                 num			
+### tBodyGyroJerkMag.std..			                             num			
+### fBodyAcc.std...X			                                   num			
+### fBodyAcc.std...Y			                                   num			
+### fBodyAcc.std...Z			                                   num			
+### fBodyAccJerk.std...X			                               num			
+### fBodyAccJerk.std...Y			                               num			
+### fBodyAccJerk.std...Z			                               num			
+### fBodyGyro.std...X			                                   num			
+### fBodyGyro.std...Y			                                   num			
+### fBodyGyro.std...Z			                                   num			
+### fBodyAccMag.std..			                                   num			
+### fBodyBodyAccJerkMag.std..			                           num			
+### fBodyBodyGyroMag.std..			                             num			
+### fBodyBodyGyroJerkMag.std..			                         num			
